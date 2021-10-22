@@ -1,6 +1,3 @@
-* {
-  margin: 0;
-}
 html,
 body {
   --black: hsl(240, 6%, 13%);
@@ -21,13 +18,6 @@ main {
   width: 375px;
   height: 720px;
   border-radius: 10px;
-}
-
-.work {
-  position: absolute;
-  margin-top: 2rem;
-  margin-left: 1rem;
-  max-width: 150px;
 }
 
 .container {

@@ -15,9 +15,6 @@
   </head>
   <body>
     <main>
-      <div class="work">
-        <img src="images/no_customization_frame.eps" alt="ícone linkedin" />
-      </div>
       <div class="container">
         <div class="avatar">
           <span>
@@ -69,24 +66,6 @@
       </div>
     </main>
 
-    <script>
-      const linksSocialMedia = {
-        youtube: 'Zigsam',
-        github: 'zigfridExe',
-        instagram: 'zigsam.exe',
-        facebook: 'everton.romansini',
-        twitter: 'zigsam'
-      }
-
-      function changeSocialMediaLinks() {
-        for (let li of socialLinks.children) {
-          const social = li.getAttribute('class')
-
-          li.children[0].href = `http://${social}.com/${linksSocialMedia[social]}`
-        }
-      }
-
-      changeSocialMediaLinks()
-    </script>
+    <script src="style.css"></script>
   </body>
 </html>
